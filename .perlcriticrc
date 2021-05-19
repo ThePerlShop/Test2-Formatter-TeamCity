@@ -1,0 +1,9 @@
+[TestingAndDebugging::RequireUseStrict]
+equivalent_modules = Test2::TeamCity::Kit Test2::TeamCity::Kit::Moose
+
+[TestingAndDebugging::RequireUseWarnings]
+equivalent_modules = Test2::TeamCity::Kit Test2::TeamCity::Kit::Moose
+
+[-Subroutines::ProhibitSubroutinePrototypes]
+
+[-Subroutines::ProhibitExplicitReturnUndef]
